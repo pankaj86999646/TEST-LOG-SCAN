@@ -1,0 +1,11 @@
+jobs:
+  include:
+    - os: linux
+      language: python
+      python:
+       - "3.8"
+      arch: amd64
+      dist: focal
+      token: uQa5UGi4fgua8F4HDpFxwQ
+      script:
+        - python hello_world.py
